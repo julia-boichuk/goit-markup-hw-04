@@ -96,6 +96,20 @@ img {
 .contacts-link:focus {
     color: #404bbf;
 }
+.nav-link:hover::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    background-color: #404bbf ;
+    border-radius: 2px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    content:'';
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+    
+
     /*first section*/
     .first-section {
     padding-top: 188px;
@@ -193,12 +207,7 @@ img {
         padding: 120px 0 120px;
         
     }
-/*.container {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    padding: 32px 0;
-}*/
+
 .container {
     padding: 32px 0;
 }
@@ -231,6 +240,7 @@ img {
     width: calc((100% - 72px) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    fill: #4d5ae5;
 }
 .header-team {
         font-weight: 500;
