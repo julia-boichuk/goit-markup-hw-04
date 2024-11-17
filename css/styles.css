@@ -294,6 +294,7 @@ position: relative;
     color: #434455;
 }
 .social-list {
+    display: flex;
     justify-content: center;
     gap: 24px;
 }
