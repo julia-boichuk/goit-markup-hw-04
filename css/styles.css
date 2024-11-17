@@ -410,9 +410,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     display: flex;
     align-items: baseline;
     column-gap: 120px;
-    margin-right: 120px;
 }
-.social-list{
+.social-list-footer{
     display: flex;
     gap: 16px;
 
@@ -434,7 +433,9 @@ gap: 16px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.logo-and-footer {
+    margin-right: 120px;
+}
 .logo-part {
     color: #f4f4fd;
 }
@@ -445,6 +446,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 
 }
+
 .p-footer {
         margin-bottom: 16px;
         color: #FFFFFF;
