@@ -22,7 +22,7 @@ img {
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     margin: 0 auto;
 }
 
@@ -182,7 +182,6 @@ position: relative;
     justify-content: center;
     width: 264px;
     height: 112px;
-    margin-right: 24px;
     margin-bottom: 8px;
     background-color: #f4f4fd;
     border-radius: 4px;
@@ -205,16 +204,14 @@ position: relative;
         overflow: hidden;
         }
 
-    .container {
+    .second-section {
         padding: 120px 0;
         }
     
     .nav-second-section {
         display: flex;
-        max-width: 1128px;
         gap: 24px;
         justify-content: center;
-        margin: auto;
         }
         
 .header-three {
@@ -238,14 +235,11 @@ position: relative;
 }
 
     /*third section*/
-    .third-section{
+.third-section{
         padding: 120px 0 120px;
         
     }
 
-.container {
-    padding: 32px 0;
-}
 .nav-list-third-section {
     display: flex;
     gap: 24px;
@@ -290,6 +284,7 @@ position: relative;
         text-align: center;
 }
 .p-third-section {
+    margin-bottom: 8px;
     text-align: center;
     color: #434455;
 }
@@ -320,13 +315,9 @@ position: relative;
     width: 16px;
     height: 16px;
 }
-.social-list-item{
-    margin: auto;
-    margin-top: 8px;
-}
 
     /*fourth section same as previous*/
-    .container {
+    .fourth-section {
     padding: 120px 0 120px 0;
     }
 
@@ -394,23 +385,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 /*footer*/
 
-.container {
-    padding: 100px 0;
-}
 .footer {
-    max-width: 1440px;
-    margin: auto;
-    color: #f4f4fd;
+    padding: 100px 0;
     background-color: #2e2f42;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
 }
 .page-footer-container {
     display: flex;
     align-items: baseline;
-    column-gap: 120px;
 }
 .social-list-footer{
     display: flex;
@@ -418,7 +399,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 
 }
 
-.social-list-icon{
+.social-list-icon-footer{
     fill:#f4f4fd;}
 
 .social-list-link-footer{
@@ -449,13 +430,18 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .p-footer {
-        margin-bottom: 16px;
         color: #FFFFFF;
         letter-spacing: 0.02em;
         line-height: 1.5;
         font-weight: 500;
         text-transform: none;
         max-width: 264px;
+        
+}
+.p-footer-media{
+    margin-bottom: 16px;
+    color: #FFFFFF;
+
 }
 
 .social-list-link-footer:hover {
